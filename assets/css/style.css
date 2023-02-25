@@ -1,0 +1,32 @@
+
+/* body{
+    background-color: gray;
+} */
+
+.sidebar{
+    height: 100vh;
+    width: 350px;
+    background-color: gray;
+    position: relative;
+    transition: all 0.5s;
+}
+
+.sidebar i{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.hide{
+    transform: translate(-300px);
+}
+
+.sidebar ul{
+    padding-top: 100px;
+    width: 200px;
+    margin-left: 60px;
+    cursor: pointer;
+}
